@@ -27,5 +27,4 @@ def find_valid_calls(planeteer_calls)
   planeteer_calls.include? do
     valid_calls.find valid_calls
   end
-  nil
 end
